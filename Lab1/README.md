@@ -15,7 +15,7 @@ Project is created with:
 
   Setup:
 Clone this repository;
-APP CREATED USING: Java 11 JavaFX Intellij IDEA
+APP CREATED USING: Java 11 also works with Java 8 JavaFX Intellij IDEA
 git clone https://github.com/janegarciu/CS/Lab1.git
 
   Video:
