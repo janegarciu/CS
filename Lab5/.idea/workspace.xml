@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bea63179-2c1b-4301-af0a-711c9f0e8f63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ListViewCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ListViewCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$TextFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController$TextFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/out/production/AuditParser/sample/ViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/ListViewCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/ListViewCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/AuditParser/src/sample/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/ChosenAudits(201002233315).audit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/ChosenAudits(201002233431).audit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/ChosenAudits(201002233637).audit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/CustomItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/CustomItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/AuditParser/src/sample/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/CIS_Apple_macOS_10.14_v1.0.0_L2.audit" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/CIS_Apple_macOS_10.14_v1.0.0_L2.audit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/CustomItemService$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/CustomItemService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/CustomItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/ListViewCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/View.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/ViewController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/ViewController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/ViewController$TextFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab3/sample/ViewController.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jBEVyOLEvlY7UFqeVVdAwj6hPo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bea63179-2c1b-4301-af0a-711c9f0e8f63" name="Default Changelist" comment="" />
+      <created>1603269111948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603269111948</updated>
+      <workItem from="1603269113562" duration="319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
