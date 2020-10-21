@@ -5,8 +5,6 @@
 * [Technologies](#technologies)
 * [Lab1 Features](#lab1)
 * [Lab2 Features](#lab2)
-* [Lab3 Features](#lab3)
-* [Lab4 Features](#lab4)
 * [Team](#team)
 
 ## General info
@@ -34,15 +32,6 @@ $ java App.class
 • Search by name for an option (via a search bar)
 • Select or deselect all options in one click
 • Create and save a policy that contains only the selected options under the same name or a different one.
-
-## Lab3 Features
-• Perform an audit of the workstation, using the options that were selected
-• Output the results of the audit on screen
-
-## Lab4 Features
-• Select the settings to be enforced (a subset of ”Failed”, or all of them)
-• Enforce the policy on at least 5 settings (edit the selected settings in your system)
-• Rollback to the system’s initial settings
 
 ## Team
 
