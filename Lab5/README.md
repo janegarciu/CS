@@ -7,6 +7,7 @@
 * [Lab2 Features](#lab2)
 * [Lab3 Features](#lab3)
 * [Lab4 Features](#lab4)
+* [Lab5 Features](#lab5)
 * [Team](#team)
 
 ## General info
@@ -42,6 +43,11 @@ $ java App.class
 ## Lab4 Features
 • Select the settings to be enforced (a subset of ”Failed”, or all of them)
 • Enforce the policy on at least 5 settings (edit the selected settings in your system)
+• Rollback to the system’s initial settings
+
+## Lab5 Features
+• Select the settings to be enforced (a subset of ”Failed”, or all of them)
+• Enforce the policy on 20 settings (edit the selected settings in your system)
 • Rollback to the system’s initial settings
 
 ## Team
