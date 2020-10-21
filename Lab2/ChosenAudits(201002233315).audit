@@ -1,0 +1,41 @@
+<Custom item>
+ cmd : "/usr/bin/sw_vers | /usr/bin/grep 'ProductVersion'"
+ type : CMD_EXEC
+  expect : "^ProductVersion[\\s]*:[\\s]*10\.14"
+  description : "MacOS 10.14 is installed"
+</Custom item>
+
+<Custom item>
+ info : "Hot Corners can be configured to disable the screen saver by moving the mouse cursor to a corner of the screen.
+  plist_name : "com.apple.dock"
+  plist_user : "all"
+  solution : "Perform the following to implement the prescribed state:Open System PreferencesSelect Mission ControlSelect Hot CornersRemove any corners which are set to Disable Screen Saver"
+  see_also : "https://workbench.cisecurity.org/files/2708"
+  not_regex : ".* = 6"
+  reference : "800-171|3.1.10,800-53|AC-11,CN-L3|8.1.4.1(b),CSCv7|16.11,ISO/IEC-27001|A.11.2.8,ITSG-33|AC-11,LEVEL|2S,NESA|T2.3.8,NESA|T2.3.9,NIAv2|AM23a,NIAv2|AM23b"
+  cmd : "/usr/bin/sw_vers | /usr/bin/grep 'ProductVersion'"
+  plist_item : "wvous-tr-corner"
+ Rationale:Setting a hot corner to disable the screen saver poses a potential security risk since an unauthorized person could use this to bypass the login screen and gain access to the system."
+  plist_option : CAN_BE_NULL
+ type : MACOSX_DEFAULTS_READ
+  expect : "^ProductVersion[\\s]*:[\\s]*10\.14"
+  description : "2.3.2 Secure screen saver corners - top right corner"
+</Custom item>
+
+<Custom item>
+ info : "Hot Corners can be configured to disable the screen saver by moving the mouse cursor to a corner of the screen.
+  plist_name : "com.apple.dock"
+  plist_user : "all"
+  solution : "Perform the following to implement the prescribed state:Open System PreferencesSelect Mission ControlSelect Hot CornersRemove any corners which are set to Disable Screen Saver"
+  see_also : "https://workbench.cisecurity.org/files/2708"
+  not_regex : ".* = 6"
+  reference : "800-171|3.1.10,800-53|AC-11,CN-L3|8.1.4.1(b),CSCv7|16.11,ISO/IEC-27001|A.11.2.8,ITSG-33|AC-11,LEVEL|2S,NESA|T2.3.8,NESA|T2.3.9,NIAv2|AM23a,NIAv2|AM23b"
+  cmd : "/usr/bin/sw_vers | /usr/bin/grep 'ProductVersion'"
+  plist_item : "wvous-tl-corner"
+ Rationale:Setting a hot corner to disable the screen saver poses a potential security risk since an unauthorized person could use this to bypass the login screen and gain access to the system."
+  plist_option : CAN_BE_NULL
+ type : MACOSX_DEFAULTS_READ
+  expect : "^ProductVersion[\\s]*:[\\s]*10\.14"
+  description : "2.3.2 Secure screen saver corners - top left corner"
+</Custom item>
+

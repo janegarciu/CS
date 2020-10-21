@@ -15,6 +15,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Window;
+import jdk.nashorn.api.scripting.ScriptObjectMirror;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.awt.*;
@@ -55,10 +56,13 @@ public class ViewController implements Initializable {
     private TableView<ListViewCell> auditTable;
     @FXML
     private TableColumn<ListViewCell, String> NameColumn;
-    private ObservableList<ListViewCell> masterData = FXCollections.observableArrayList();
+    public ObservableList<String> observableList = FXCollections.observableArrayList();
     private Window stage;
     private File file;
     private List<Integer> selectedIndices;
+    ArrayList<Integer> indexesArray = new ArrayList<>();
+    private JSONArray finalAudit = new JSONArray();
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -131,16 +135,21 @@ public class ViewController implements Initializable {
         });
 
     }
-    public void saveChosenItems(ActionEvent event) throws IOException {
+    public void saveChosenItems(ActionEvent event) throws IOException, InterruptedException {
         event.consume();
-        JSONArray tempJsonArr = new JSONArray();
-        selectedIndices.forEach(index -> {
-            tempJsonArr.put(jsonArr.get(index));
-        });
+        if (indexesArray.size() > 0) {
+            selectedIndices.forEach(index -> {
+                finalAudit.put(jsonArr.get(indexesArray.get(index)));
+            });
+        } else {
+            selectedIndices.forEach(index -> {
+                finalAudit.put(jsonArr.get(index));
+            });
+        }
         Map<String, Object> map = new HashMap<String, Object>();
         String finalResult = "";
-        for (int i = 0; i < tempJsonArr.length(); i++) {
-            map = tempJsonArr.getJSONObject(i).toMap();
+        for (int i = 0; i < finalAudit.length(); i++) {
+            map = finalAudit.getJSONObject(i).toMap();
          finalResult += "<Custom item>\n" +  map.entrySet().stream().map((entry) -> //stream each entry, map it to string value
                     entry.getKey() + ":" + entry.getValue() + "\n")
                     .collect(Collectors.joining(" ")) + "</Custom item>\n\n";
@@ -154,15 +163,22 @@ public class ViewController implements Initializable {
         String filename = "ChosenAudits" + "("+simpleDateFormat.format(new Date())+")" + ".audit";
         FileWriter file = new FileWriter(filename);
         file.write(String.valueOf(finalResult));
+        CustomItemService customItemService = new CustomItemService();
+        customItemService.ExecuteCommand(finalAudit, listView, observableList);
         file.close();
-        Platform.exit();
     }
 
     public void setListView(List<String> list) {
+        if(listView.getItems()!= null)
+            listView.getItems().clear();
+        listView.refresh();
 
-        ObservableList<String> observableList = FXCollections.observableArrayList(list);
+        observableList = FXCollections.observableArrayList(list);
+
         listView.setItems(observableList);
+
         MultipleSelectionModel<String> langsSelectionModel = listView.getSelectionModel();
+
         langsSelectionModel.setSelectionMode(SelectionMode.MULTIPLE);
 
         langsSelectionModel.getSelectedIndices().addListener((ListChangeListener<? super Number>) (observableValue) -> {
@@ -171,15 +187,22 @@ public class ViewController implements Initializable {
 
         FilteredList<String> filteredData = new FilteredList<>(observableList, s -> true);
         textListViewField.textProperty().addListener(obs -> {
-            String filter = textListViewField.getText().toLowerCase();
+            String filter = textListViewField.getText();
             if (filter == null || filter.length() == 0) {
+                indexesArray.clear();
                 filteredData.setPredicate(s -> true);
+
                 listView.setItems(observableList);
             } else {
-                filteredData.setPredicate(s ->  s.toLowerCase().contains(filter));
+                indexesArray.clear();
+                for (int index = 0; index < observableList.size() -1; index++) {
+                    if (observableList.get(index).contains(filter)) {
+                        indexesArray.add(index);
+                    }
+                }
+                filteredData.setPredicate(s -> s.contains(filter));
                 ObservableList<String> currentList = FXCollections.observableArrayList(filteredData);
                 listView.setItems(currentList);
-
             }
         });
 

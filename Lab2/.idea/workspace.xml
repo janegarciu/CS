@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d626240a-e8f9-413a-a50c-08530e129280" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hYjQ3Ez3yeTXyZOo7jQcBSvC3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37586206" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="AuditReader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d626240a-e8f9-413a-a50c-08530e129280" name="Default Changelist" comment="" />
+      <created>1600194899198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600194899198</updated>
+      <workItem from="1600194903373" duration="3304000" />
+      <workItem from="1600675411174" duration="966000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="381" y="69" key="#App" timestamp="1600715130067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="381" y="69" key="#App/0.0.1440.900@0.0.1440.900" timestamp="1600715130067" />
+    <state x="354" y="110" key="#Inspections" timestamp="1600196274831">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="110" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1600196274831" />
+    <state x="208" y="7" key="#Project_Structure" timestamp="1600196585343">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="7" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1600196585343" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1600715181428">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600715181428" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1600715181426">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600715181426" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1600715181422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600715181422" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1600715181427">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600715181427" />
+    <state x="258" y="87" key="Maven.ArtifactSearchDialog" timestamp="1600198018875">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="87" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1600198018875" />
+    <state x="349" y="132" key="NewModule_or_Project.wizard" timestamp="1600196459885">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="349" y="132" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1600196459885" />
+    <state x="208" y="7" key="SettingsEditor" timestamp="1600198298335">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="7" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600198298335" />
+  </component>
+</project>
