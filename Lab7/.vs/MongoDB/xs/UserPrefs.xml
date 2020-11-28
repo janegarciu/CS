@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{7E64A50D-A1AA-4B21-BAF0-8A981385E95A}|Default">
+  <MonoDevelop.Ide.ItemProperties.MongoDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MongoDB/MongoDBController.cs">
+    <Files>
+      <File FileName="MongoDB/Program.cs" Line="58" Column="103" />
+      <File FileName="MongoDB/MongoDBController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MongoDB" expanded="True">
+            <Node name="MongoDB" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
